@@ -1,0 +1,112 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 auto;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    font-size: 20px;
+    font-weight: 400;
+}
+ul {
+    display: flex;
+}
+
+/* header */
+header {
+    font-family: 'Myriad Pro', serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.menu {
+    margin: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    
+    
+}
+.menu a {
+    padding: 75px;
+    color: grey;
+}
+.menu a:hover {
+    color: rgb(24, 197, 240);
+    transition: color 3.s;
+}
+
+
+/* main */
+main {
+    padding-left: 500px;
+    display: inline-table;
+    width: 100%;
+    max-width: 2000px;
+    padding: 0 500px;
+    margin-bottom: 72px;
+    color: grey;
+}
+.f-art p {
+    font-family: 'Myriad Pro', serif;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.f-art h2 {
+    font-family: 'PlayfairDisplay', serif;
+    font-weight: 400;
+}
+.f-art a {
+    font-family: 'Ubuntu', serif;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 0.6em;
+    font-weight: lighter;
+}
+
+main img {
+    max-width: 450px 300px;
+    
+}
+.f-article {
+    align-items: center;
+    padding-right: 50px;
+    width: 50%;
+    float: left;
+}
+.s-article {
+    padding-left: 50px;
+    width: 50%;
+    float: right;
+}
+.t-article {
+    padding-right: 50px;
+    width: 50%;
+    float: left;
+}
+.fo-article {
+    padding-left: 50px;
+    width: 50%;
+    float: right;
+}
+
+
+/* footer */
+footer h2 {
+    color: grey;
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.7;
+    margin-bottom: 20px;
+    padding-top: 10px ;
+    border: 1px solid rgb(71, 71, 71);
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+footer h2:hover {
+    color: black;
+    background-color: gray;
+}
+
